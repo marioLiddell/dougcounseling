@@ -1,0 +1,197 @@
+.navbar {
+    background-color: #4e4e5a !important;
+} 
+.padding {
+    padding: 80px 0;
+    display: block;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.padding2 {
+    padding: 40px 0;
+    display: block;
+}
+.navbar-brand{
+    display: block;
+    max-height: 65px;
+    padding: 0 15px 5px;
+}
+.lead-nav{
+    padding: 0%
+}
+.h2-nav{
+    padding :0;
+    margin-bottom: 0%;
+}
+.navbar-default .navbar-nav li a{
+    color: #d5d5d5;
+}
+.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a:active {
+    color: #fff;
+}
+#home{
+    background: url('/static/assets/dbhome.jpg') no-repeat center center fixed;
+    display: table;
+    background-position: 0 10px;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+    padding-bottom: 5px;
+   
+}
+#serv{
+    background: url('/static/assets/pic.jpg') no-repeat center center fixed;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+    padding-bottom: 5px;
+   
+}
+.card-pic{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    background-color: rgba(213, 213, 213, .65);
+    color: #4e4e5a;
+    border: none;
+    vertical-align: center;
+    font-size: 1.7em;
+    padding: 2px  2px 2px 2px;
+    border-radius: 15px;
+    
+    
+}
+
+.card-pic2{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    background-color: transparent;
+    color: #4e4e5a;
+    border: none;
+    vertical-align: center;
+    font-size: 1.4em;
+}
+#fixed{
+    background: url('/static/assets/canyon-2114382.jpg') no-repeat center center fixed;
+    display: table;
+    height: 30%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+    color: #d5d5d5;
+    font-size: 2em;
+    
+}
+#forms{
+    background: url('/static/assets/admin.jpg') no-repeat center center fixed;
+    display: table;
+    height: 30%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+    color: #4e4e5a;
+    font-size: 2em;
+    
+}
+
+footer{
+    width: 100%;
+    background-color: #4e4e5a;
+    color: #fff;
+}
+
+.fa{
+    padding: 15px;
+    font-size: 25px;
+    color: #fff;
+}
+
+.fa:hover{
+    color: #d5d5d5;
+    text-decoration: none;
+
+}
+
+.a-footer{
+    padding: 15px;
+    color: #fff;
+}
+.a-footer:hover{
+    color: #d5d5d5;
+    text-decoration: none;
+
+}
+
+@media (max-width: 768px){
+    .fa{
+        font-size: 15px;
+        padding: 10px;
+    }
+}
+@media (max-width: 768px){
+    .card-pic{
+        margin-top: 40%;
+        margin-bottom: 10%;
+        background-color: rgba(213, 213, 213, .65);
+        color: #4e4e5a;
+        border: none;
+        vertical-align: center;
+        font-size: 1em;
+        border-radius: 15px;
+        }
+    }
+.jumbotron{
+    background: url('/static/assets/office.jpg') no-repeat center center fixed;
+    display: table;
+    height: 200px;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+    color: #4e4e5a;
+    font-size: 2em;
+    padding-top: 20%;
+}
+.jumbotron-forms{
+    background: url('/static/assets/admin.jpg') no-repeat center center fixed;
+}
+.col-blocktext{
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0%;
+}
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+.card-services{
+    background: transparent;
+    border: none;
+    font-size: 1.5em;
+}
+.navbar-toggle.pull-right {
+    margin-left: 15px;
+  }
+  @media (min-width: 768px) {
+    .pull-sm-right {
+      float: right !important;
+      display: inline-flex;
+      
+    }
+  }
+  ul{
+    text-align: center;
+    font-size: 1em;
+  }
+ 
